@@ -1,14 +1,12 @@
-import User from "./components/User";
-import Employee from './components/Employee';
-import Customer from "./components/Customer";
+import Posts from "./components/Posts";
+import Images from "./components/Images"
+
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>App</h1> */}
-      {/* <User/>
-      <Employee/> */}
-      <Customer/>
+      <Posts/>
+      <Images/>
     </div>
   );
 }
